@@ -1,0 +1,454 @@
+
+{
+       "intents": [
+           { 
+               "tag": "greeting",
+                "patterns":[
+                      "ні",
+                      "HI",
+                      "hi",
+                      "How are you", 
+                      "Is anyone there?",
+                      "Hello",
+                      "Good day",
+                      "Whats up",
+                      "how are ya",
+                      "heyy",
+                      "whatsup"
+                ],           
+                "responses": [
+                         "Hello!",
+                         "Good to see you again!",
+                         "Hi there, how can I help?"
+                ]
+           },
+           {
+                "tag": "goodbye",
+                "patterns": [
+                       "суа",
+                       "see you",
+                       "bye bye",
+                       "See you later",
+                       "Goodbye",
+                       "I am Leaving",
+                       "Вуе",
+                       "Have a Good day",
+                       "talk to you later",
+                       "tyyl",
+                       "i got togo",
+                       "gtg"
+                ],
+                "responses":[ 
+                "Sad to see you go :(",
+                "Talk to you later",
+                "Goodbye!",
+                "Come back soon"
+            ],
+            "context_set":""
+           },
+           {
+            "tag": "SECE",
+            "patterns":[
+                "SRI ESHWAR",
+                "SRI ESHWAR COLLEGE",
+                "SRI ESHWAR COLLEGE ENGINEERING",
+                "SRI ESHWAR COLLEGE OF ENGINEERING",
+                "Tell me about SECE",
+                 "Give me information about SECE?",
+                 "History of SECE",
+                 "when was SECE founded?",
+                 "about SECE?",
+                 "Ranking of SECE?",
+                 "SECE ranking",
+                 "Information on SECE",
+                 "Ranking of SECE",
+                 "Rank of SECE",
+                 "rank of sri eshwar college of engineering",
+                 "rank of this college",
+                 "significance of college",
+                 "significance of SECE",
+                 "Significance of sri eshwar college of engineering",
+                 "Founded by whom",
+                 "Founder of SECE?",
+                 "Founded of SECE"
+            ],
+            "responses":[
+                "Sri Eshwar College of Engineering is an Autonomous Institution, Approved by AICTE, New Delhi and Affiliated to Anna University, Chennai. Sri Eshwar is located in a tranquil and conducive ambience creating an ideal learning environment to stimulate intellectual and personal growth. It is housed near Kinathukadavu, at a distance of 25km from Coimbatore Railway station. Sri Eshwar College of Engineering was established in the year 2008.It was founded by Mr. R. Mohanram."
+            ],
+             "context_set":""
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "your name",
+                "do you have a name",
+                "what are you called",
+                "what is your name",
+                "what should I call you",
+                "whats your name?",
+                "what are you", 
+                "who are you",
+                "who is this",
+                "what an i chatting to",
+                "who am i taking to",
+                "what are you"
+            ],
+            "responses":[
+                "You can call me SECE BUZZ.",
+                "I'm SECE"
+            ],
+            "context_set":""
+        },
+        {
+            "tag": "course",
+            "patterns": [
+                    "list of courses",
+                    "list of courses offered",
+                    "list of courses offered in SECE",
+                    "what are the courses offered in your college?",
+                    "courses?",
+                    "courses offered",
+                    "courses offered in SECE",
+                    "courses you offer",
+                    "branches?",
+                    "courses available at SECE?",
+                    "branches available at SECE?",
+                    "what are the courses in SECE?",
+                    "department",
+                    "what are branches in SECE",
+                    "what are courses in SECE?",
+                    "branches available in SECE?",
+                    "can you tell me the courses available in SECE?",
+                    "can you tell me the branches available in SECE?",
+                    "Civil engineering?",
+                    "Computer engineering?",
+                    "IT engineering?",
+                    "Automobile engineering?",
+                    "Mechanical engineering?",
+                    "EXTC engineering?",
+                    "Electrical engineering?",
+                    "civil",
+                    "it",
+                    "IT",
+                    "Computer",
+                    "Automobile",
+                    "Mechanical",
+                    "EXTC",
+                    "Electrical",
+                    "Comps",
+                    "Auto",
+                    "Mech",
+                    "extc"
+                ],
+                "responses": [
+                        "1) Artificial Intelligence and Data Science,\n2) Computer Science and Engineering,\n3)Electrical and Electronics Engineering,\n4)Electronics and Communication Engineering,\n5)Information Technology,\n6)Computer and Communication Engineering,\n7)Computer Science and Business System and \n 8)Mechanical Engineering .\nFor more details visit<a target=\"_blank\" href=\"https://sece.ac.in/programmes/\"> here</a>"
+                ],
+                "context_set":"" 
+            },
+            {
+                "tag": "hours",
+                        "patterns": [
+                                "timing of college",
+                                "what is college timing",
+                                "working days",
+                                "when are you guys open",
+                                "what are your hours",
+                                "hours of operation",
+                                "when is the college open",
+                                "college timing",
+                                "what about college timing",
+                                "is college open on saturday",
+                                "tell something about college timing",
+                                "what is the college  hours",
+                                "when should i come to college",
+                                "when should i attend college",
+                                "what is my college time",
+                                "college timing",
+                                "timing college"
+                        ],
+                        "responses": [
+                                "College is open 8am-5pm Monday-Saturday! The working hours of the college is from 8:40 am to 4-10 pm.There will a holiday for alternate saturday."
+                        ],
+                        "context_set": ""
+                },
+                {
+                    "tag": "location",
+                    "patterns": [
+                            "where is the college located",
+                            "college is located at",
+                            "where is college",
+                            "where is college located",
+                            "address of college",
+                            "how to reach college",
+                            "college location",
+                            "college address",
+                            "wheres the college",
+                            "how can I reach college",
+                            "whats is the college address",
+                            "what is the address of college",
+                            "address",
+                            "location"
+                    ],
+                    "responses": [
+                        "Kondampatti (post), Vadasithur (via), Kinathukadavu, Coimbatore 641202, Tamil Nadu.For more details visit <a target=\"_blank\" href=\"https://goo.gl/maps/KW9rQxU6e13nwNih9\"> here</a>"    
+                    ],
+                    "context_set":""
+                },
+                {
+                    "tag": "hostel",
+                    "patterns": [
+                            "hostel facility",
+                            "hostel servive",
+                            "hostel location",
+                            "hostel address",
+                            "hostel facilities",
+                            "hostel fees",
+                            "Does college provide hostel",
+                            "Is there any hostel",
+                            "Where is hostel",
+                            "do you have hostel",
+                            "do you guys have hostel",
+                            "hostel",
+                            "hostel capacity",
+                            "what is the hostel fee",
+                            "how to get in hostel",
+                            "what is the hostel address",
+                            "how far is hostel from college",
+                            "hostel college distance",
+                            "where is the hostel",
+                            "how big is the hostel",
+                            "distance between college and hostel",
+                            "distance between hostel and college"
+                    ],
+                    "responses": [
+            "SECE provides safe and affordable hostel facilities for boys and girls.The average fees structure for hostel will be above 80,000.The food menu is both veg and Non-veg. For more details visit <a target=\"_blank\" href=\"https://sece.ac.in/hostel/\"> here</a>"                                                         
+                    ],
+                    "context_set": ""
+            },
+            {
+                "tag": "event",
+                "patterns": [
+                        "events organised",
+                        "list of events",
+                        "list of events organised in college",
+                        "list of events conducted in college",
+                        "What events are conducted in college",
+                        "Are there any event held at college",
+                        "Events?",
+                        "functions",
+                        "what are the events",
+                        "tell me about events",
+                        "what about events"
+                ],
+                "responses": [
+                        "Our college organizes various events during academics.Many Events are useful for technical skils and placements activities.There are many events which are held by deparments.<a target=\"_blank\" href=\"https://sece.ac.in/events//\"> here</a>",
+                        "Our SECE organizes FESTIVAL every year.There are major 2 fest in our college.1)DHRONA\n 2)FOOD FEST."
+                ],
+                "context_set": ""
+        },
+        {
+            "tag": "document",
+            "patterns": [
+                    "document to bring",
+                    "documents needed for admision",
+                    "documents needed at the time of admission",
+                    "documents needed during admission",
+                    "documents required for admision",
+                    "documents required at the time of admission",
+                    "documents required during admission",
+                    "What document are required for admission",
+                    "Which document to bring for admission",
+                    "documents",
+                    "what documents do i need",
+                    "what documents do I need for admission",
+                    "documents needed"
+            ],
+            "responses": [
+                     "You should bring the copy and original certificates of 10th and 12th grade,Copy of community certificate, Income certificate, Aadhar card, Allotment order, Transfer certificate(TC) and 3 passport size photos"
+            ],						
+            "context_set": ""
+    },
+    {
+        "tag": "placement",
+        "patterns": [
+                "What is college placement",
+                "Which companies visit in college",
+                "What is average package",
+                "companies visit",
+                "package",
+                "placement",
+                "recruitment",
+                "companies"
+            ],
+            "responses": [
+                "The placements of SECE go as high as 98% year after year. Giants from Amazon, Byju’s, Coviam, Informatica, Multicore Ware, Payoda, and Thoughtworks are the top recruiters.Also various companies are coming to recruite our students and offer maximum packages.For more information visit <a target=\"_blank\" href=\"https://sece.ac.in/our-recruiters/\">here</a>"
+            ],
+            "context_set":""
+        },
+        {
+            "tag": "aidshod",
+            "patterns": [
+                    "Who is AIDS HOD",
+                    "Where is AIDSHOD",
+                    "AIDS hod",
+                    "about aids hod",
+                    "about AIDS hod",
+                    "name of AIDS hod",
+                    "aihod",
+                    "AIDSHOD"
+
+            ],
+            "responses": [
+                    "Mrs. Dr.S.Sumathi is AIDS HOD who is available on the Artificial intelligence and data science Block . To know more visit <a target=\"_blank\" href=\"https:\\sece.ac.in\teamdr-sumathi/\">here</a>"
+            ],
+            "context_set": ""
+    },
+    {
+        "tag": "ithod",
+        "patterns": [
+                "Who is IT HOD",
+                "Where is IT HOD",
+                "it hod",
+                "about it hod",
+                "name of it hod"
+            ],
+            "responses": [
+                "Dr.P.John Augustine is IT HOD who is available on the 2nd floor Main block Of IT. To know more visit <a target=\"_blank\" href=\"https://sece.ac.in/team/dr-p-john-augustine/\">here</a>"
+            ],
+            "context_set": ""
+        },
+    { 
+       "tag": "mechhod",
+       "patterns": [
+            "Who is Mechanical HOD",
+            "Where is  mechanical HOD",
+            "mechanical hod",
+            "about mechanical hod",
+            "name of mechanical hod"
+        ],
+        "responses": [
+            "Dr. R. Suresh Kumar is Mechanical HOD who is available on Mechanical block 1st Floor. To know more visit <a target=\"_blank\" href=\"https://sece.ac.in/team/dr-r-suresh-kumar/\">here</a>"
+        ],
+        "context_set": ""
+    },
+    {
+        "tag": "comphod",
+        "patterns": [
+            "Who is Computer HOD",
+            "Who is Cse HOD",
+            "Where is  Computer HOD",
+            "Where is  Cse HOD",
+            "computer hod",
+            "cse hod",
+            "about cse hod",
+            "name of computer hod",
+            "name of cse hod"
+        ],
+        "responses": [
+            "Dr. R.Subha is Computer HOD who is available on 4th floor. To know more visit <a target=\"_blank\" href=\"https://sece.ac.in/team/dr-r-subha/\">here</a>"
+        ],
+        "context_set":""
+    },
+    {
+        "tag": "aidshod",
+        "patterns": [
+            "Who is AI&DS HOD",
+            "Who is AIDS HOD",
+            "Where is  AI&DS HOD",
+            "Where is  AIDS HOD",
+            "Artificial intelligence and data science hod",
+            "AIDS hod",
+            "AI&DS HOD",
+            "about AIDS hod",
+            "name of AI&DS hod",
+            "name of AI&DS hod"
+        ],
+        "responses": [
+            "Dr. R.Subha is Computer HOD who is available on 4th floor. To know more visit <a target=\"_blank\" href=\"https://sece.ac.in/team/dr-r-subha/\">here</a>"
+        ],
+        "context_set":""
+    },
+    {
+        "tag": "admission",
+        "patterns": [
+                "what is the process of admission",
+                "what is the admission process",
+                "How to take admission in your college",
+                "What is the process for admission",
+                "admission",
+                "admission process",
+                "eligibility for admission",
+                "eligibility",
+                "what is the eligibility",
+                "eligibility criteria",
+                "eligibility criteria for enigineering",
+                "admission engineering"
+        ],
+        "responses": [
+                "(Communities other than BC / MBC / SC / ST) Pass in 12th standard with an aggregate of at least 45% marks in Mathematics, Physics & Chemistry.For BC community :Pass in 12th standard with an aggregate of at least 40% marks in Mathematics, Physics & Chemistry. For MBC: Pass in 12th standard with an aggregate of at least 40% marks in Mathematics, Physics & Chemistry. The candidate should produce the Community Certificate duly signed by the Tahsildar.For SC/ST:Pass in 12th standard with an aggregate of at least 40% marks in Mathematics, Physics & Chemistry. The Candidate should produce the Community Certificate duly signed by the Tahsildar. Note : Candidates from other states irrespective of their community are considered as OC (Other Community) The candidate should produce the Community Certificate duly signed by the Tahsildar. Refer <a href=https://sece.ac.in/eligibility/>website</a>"
+        ],
+        "context_set": ""
+},
+{
+    "tag": "swear",
+    "patterns": [
+            "fuck",
+            "bitch",
+            "shut up",
+            "hell",
+            "stupid",
+            "idiot",
+            "dumb ass",
+            "asshole",
+            "fucker"
+    ],
+    "responses": [
+            "please use appropriate language",
+            "Maintaining decency would be appreciated"
+    ],
+    "context_set": ""
+},
+{
+    "tag":"FEES",
+    "patterns":[
+        "fees",
+        "college fees"
+    ],
+    "responses":[
+        "The fee varies from one academic year to another academic year .Further information to know, call our office ph no:"
+    ],
+    "context_set":""
+},
+{
+    "tag":"AWARD",
+    "patterns":[
+        "AWARD",
+        "ACHIEVEMENT",
+        "WON THE PRIZE",
+        "highlight of college"
+
+    ],
+    "responses":[
+        
+    "Our student team Pravinkumar S, Balamurugan K, Sakthi Narayanan, guided by Mr.Giridharan have been shortlisted for the ICPC Regionals ,the greatest coding competition in the world. More than 80% of the finalists are from IITs and NITs. Our Sri Eshwar Team from Tamil Nadu has been shortlisted for this mega event. Congratulations to the students!!!.For more information visit <a target=\"_blank\" href=\"https://sece.ac.in/awards-achievement/\"> here</a>",
+    
+
+    "Mitsubishi’s 2nd ATC meet at Delhi on 24th and 25th March 2023. The leadership team of Mitsubishi, including their Director Mr.Yoshida and senior members from other ATC colleges highly appreciated Sri Eshwar’s ATC progress. We have stepped into the 11th year of our association with Mitsubishi and they have so far sponsored equipment to the tune of Rs.90+ lakhs for our college.",
+
+    "Our Second year students Rithish K , Vedhasruthi S , Subash Thangam and Nagasharmila have participated in EPITOME’23 Hackathon held at Gokaraju Rangaraju Institute of Engineering and Technology in Hyderabad and won the 1st place with the cash prize of Rs.20,000/-"
+    ],
+    "context_set":""
+},
+{
+    "tag":"AI-DS",
+    "patterns":[
+       "Artificial intelligence and data science ",
+       "AIDS"
+
+    ],
+    "responses":[
+
+    ]
+}
+]
+}

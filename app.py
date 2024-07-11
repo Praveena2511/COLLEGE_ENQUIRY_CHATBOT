@@ -1,6 +1,10 @@
 from flask import Flask , render_template , jsonify , request
 from chat import get_response
 import os
+import nltk
+
+
+nltk.download('punkt')
 app = Flask(__name__)
 
 @app.get('/')
